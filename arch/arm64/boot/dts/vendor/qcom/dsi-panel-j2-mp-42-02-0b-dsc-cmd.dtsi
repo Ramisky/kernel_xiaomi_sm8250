@@ -445,7 +445,10 @@
 				15 01 00 00 00 00 02 B5 0A];
 			mi,mdss-dsi-hbm-off-command = [
 				/* Dimming On */
-				15 01 00 00 00 00 02 53 28];
+				15 01 00 00 00 00 02 53 28
+				/* Normal Mode */
+				/* parameter will be updated base on last brightness */
+				39 01 00 00 00 00 05 51 07 FF 00 00];
 			mi,mdss-dsi-hbm-on-command-state = "dsi_lp_mode";
 			mi,mdss-dsi-hbm-off-command-state = "dsi_lp_mode";
 
@@ -490,8 +493,11 @@
 				15 01 00 00 00 00 02 6F 07
 				15 01 00 00 00 00 02 B5 0A];
 			mi,mdss-dsi-hbm-hdr-off-command = [
-				/* Dimming On */
-				15 01 00 00 00 00 02 53 28];
+                                /* Dimming On */
+                                15 01 00 00 00 00 02 53 28
+                                /* Normal Mode */
+                                /* parameter will be updated base on last brightness */
+                                39 01 00 00 00 00 05 51 07 FF 00 00];
 			mi,mdss-dsi-hbm-hdr-on-command-state = "dsi_lp_mode";
 			mi,mdss-dsi-hbm-hdr-off-command-state = "dsi_lp_mode";
 
@@ -633,7 +639,10 @@
 				15 01 00 00 00 00 02 B5 0A];
 			mi,mdss-dsi-hbm-off-command = [
 				/* Dimming On */
-				15 01 00 00 00 00 02 53 28];
+				15 01 00 00 00 00 02 53 28
+				/* Normal Mode */
+				/* parameter will be updated base on last brightness */
+				39 01 00 00 00 00 05 51 07 FF 00 00];
 			mi,mdss-dsi-hbm-on-command-state = "dsi_lp_mode";
 			mi,mdss-dsi-hbm-off-command-state = "dsi_lp_mode";
 
@@ -682,8 +691,11 @@
 				15 01 00 00 00 00 02 6F 07
 				15 01 00 00 00 00 02 B5 0A];
 			mi,mdss-dsi-hbm-hdr-off-command = [
-				/* Dimming On */
-				15 01 00 00 00 00 02 53 28];
+                                /* Dimming On */
+                                15 01 00 00 00 00 02 53 28
+                                /* Normal Mode */
+                                /* parameter will be updated base on last brightness */
+                                39 01 00 00 00 00 05 51 07 FF 00 00];
 			mi,mdss-dsi-hbm-hdr-on-command-state = "dsi_lp_mode";
 			mi,mdss-dsi-hbm-hdr-off-command-state = "dsi_lp_mode";
 
