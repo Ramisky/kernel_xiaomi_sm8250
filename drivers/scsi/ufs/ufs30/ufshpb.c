@@ -2995,8 +2995,6 @@ void ufshpb_release(struct ufsf_feature *ufsf, int state)
 
 	ufsf->ufshpb_state = state;
 
-	ufs_fill_info(ufsf->hba);
-
 	RELEASE_INFO("end release");
 }
 
